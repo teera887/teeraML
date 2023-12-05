@@ -1,0 +1,1 @@
+finnhub_api_key = 'cl449d9r01qj63a9sdt0cl449d9r01qj63a9sdtg'
