@@ -485,8 +485,8 @@ def fetch_and_process_symbol_data_with_retry(symbol, resolutions, finnhub_api_ke
                                              num_days_to_predict, feature_columns):
     try:
         # Add your code here to fetch and process symbol data
-        df = fetch_and_process_symbol_data(symbol, resolutions, finnhub_api_key, prediction_period, num_days_to_predict,
-                                           feature_columns)
+        fetch_and_process_symbol_data(symbol, resolutions, finnhub_api_key, prediction_period, num_days_to_predict,
+                                      feature_columns)
         return df
     except Exception as e:
         print(f"Failed to fetch data for {symbol}. Error: {str(e)}")

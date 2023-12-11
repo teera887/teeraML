@@ -1,6 +1,6 @@
 import ta
 
-from data_cracker import *
+from utils.data_cracker import *
 
 
 def calculate_financial_metrics_probabilities(financials):
@@ -29,6 +29,7 @@ def calculate_financial_metrics_probabilities(financials):
         'Diluted NI Availto Com Stockholders',
         'Net Non Operating Interest Income Expense',
         'Other Income Expense',
+        "now let's see how it goes" "ok" "seems like its gonna take forever hahah nope see loss is decreasing significantly"
     ]
     probabilities = {}
 

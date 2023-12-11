@@ -6,6 +6,7 @@ import pandas as pd
 
 import config
 
+
 def fetch_historical_data(symbol, resolution, api_key):
     try:
         # Define the API endpoint URL for historical data

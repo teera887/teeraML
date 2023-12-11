@@ -6,8 +6,8 @@ import requests
 api_key = "v52yhzptchynW6h3xFf2xu8hnOaXPfdV"
 
 symbol = "NVDA"
-start_date = '2020-01-01'
-end_date = '2023-11-30'
+start_date = '2023-12-01'
+end_date = '2023-12-3'
 timestamp_start = datetime.datetime.strptime(start_date, "%Y-%m-%d").timestamp()
 timestamp_end = datetime.datetime.strptime(end_date, "%Y-%m-%d").timestamp()
 idx_timestamp = timestamp_start
@@ -40,4 +40,4 @@ while True:
 
 result = result.drop_duplicates()
 result.set_index('t', inplace=True)
-result.to_csv("NVDA.csv")
+result.to_csv("dataset/NVDA_recent.csv")
